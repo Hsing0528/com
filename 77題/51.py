@@ -1,5 +1,0 @@
-a = list(input().split(","))
-a = "".join(a).split("。")
-a = "".join(a)
-ans = set([num for num in a if a.count(num) > 1])
-print(ans)
